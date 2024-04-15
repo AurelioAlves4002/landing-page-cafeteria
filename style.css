@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #604829;
+    position: fixed;
+    width: 100%;
+}
+
+header img {
+    max-height: 60px;
+}
+
+header a {
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    text-decoration: none;
+    padding: 0 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+header a:hover {
+    color: #604829;
+}
